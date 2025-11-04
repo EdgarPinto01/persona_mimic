@@ -17,7 +17,6 @@ It answers questions about Edgar’s work, background, and experience — and ca
 
 ## 🧩 Project Structure
 
-## 🧩 Project Structure
 
 ```
 persona_mimic/
