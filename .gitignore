@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.env
+
+# Local data
+me/*.pdf
+me/*.txt
+
+
+credentials.json
+token.json
