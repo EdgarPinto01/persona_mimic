@@ -59,23 +59,21 @@ OPENAI_API_KEY=sk-your-openai-key
 PUSHOVER_TOKEN=your-pushover-token
 PUSHOVER_USER=your-pushover-user
 
-    ⚠️ Do not commit .env, credentials.json, or token.json — they stay local.
+   
 
 🔑 Google Calendar Setup
 
-    Go to Google Cloud Console
+-Go to Google Cloud Console
 
-.
+-Enable Google Calendar API.
 
-Enable Google Calendar API.
+-Create an OAuth 2.0 Client ID → choose Desktop App/web app.
 
-Create an OAuth 2.0 Client ID → choose Desktop App.
+-Download the JSON and rename it credentials.json.
 
-Download the JSON and rename it credentials.json.
+-Place it in the project root.
 
-Place it in the project root.
-
-Run once to generate a token:
+-Run once to generate a token:
 
     python gen_token_console.py
 
@@ -117,13 +115,5 @@ Env config	python-dotenv
 
     Adjust the system_prompt() text to change personality or tone.
 
-📄 License
-
-MIT © 2025 Edgar Pinto
-⭐ If you find this project useful, please give it a star on GitHub!
-
-
----
-
-Just save this as **`README.md`**, commit, and push.  
-When people open your GitHub repo, it will render beautifully and explain everything t
+*Persona Mimic** is an interactive AI portfolio assistant built by me,  
+inspired by the work and mentorship of [Ed Donner](https://www.linkedin.com/in/eddonner/).
