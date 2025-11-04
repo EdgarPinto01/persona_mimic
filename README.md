@@ -1,6 +1,6 @@
 # 🧠 Persona Mimic — AI Chat Assistant
 
-**Persona Mimic** is an interactive AI portfolio assistant built for **Edgar Pinto**.  
+**Persona Mimic** is an interactive AI portfolio assistant built by Edgar Pinto.  
 It answers questions about Edgar’s work, background, and experience — and can even schedule Google Meet calls automatically using the Google Calendar API.
 
 ---
@@ -116,4 +116,4 @@ Env config	python-dotenv
     Adjust the system_prompt() text to change personality or tone.
 
 *Persona Mimic** is an interactive AI portfolio assistant built by me,  
-inspired by the work and mentorship of [Ed Donner](https://www.linkedin.com/in/eddonner/).
+inspired and mentored by Ed Donner (https://www.linkedin.com/in/eddonner/).
