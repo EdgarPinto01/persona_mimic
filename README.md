@@ -17,19 +17,22 @@ It answers questions about Edgar’s work, background, and experience — and ca
 
 ## 🧩 Project Structure
 
+## 🧩 Project Structure
+
+```
 persona_mimic/
 │
-├── app.py # main chat app with Gradio
-├── calendar_client.py # Google Calendar auth + time parsing
-├── scheduler.py # finds free slots and books meetings
+├── app.py                 # main chat app with Gradio
+├── calendar_client.py     # Google Calendar auth + time parsing
+├── scheduler.py           # finds free slots and books meetings
 ├── me/
-│ ├── summary.txt # your short bio
-│ └── linkedin.pdf # LinkedIn export (not committed)
-├── .env # environment variables (not committed)
-├── requirements.txt # dependencies
+│   ├── summary.txt        # your short bio
+│   └── linkedin.pdf       # LinkedIn export (not committed)
+├── .env                   # environment variables (not committed)
+├── requirements.txt       # dependencies
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
